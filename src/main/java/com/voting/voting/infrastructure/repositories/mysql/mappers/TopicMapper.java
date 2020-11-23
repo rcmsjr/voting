@@ -3,6 +3,7 @@ package com.voting.voting.infrastructure.repositories.mysql.mappers;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.UUID;
 
 import com.voting.voting.domain.entities.Topic;
 import com.voting.voting.infrastructure.repositories.mysql.daos.TopicDao;
