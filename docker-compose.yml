@@ -13,6 +13,7 @@ services:
       TZ: UTC
     ports:
       - '3306:3306'
+    user: 1000:1000
     volumes:
       - ./docker/mysql/conf/custom.cnf:/etc/mysql/conf.d/custom.cnf
       - ./data/mysql:/var/lib/mysql:rw

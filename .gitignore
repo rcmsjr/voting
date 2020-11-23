@@ -11,6 +11,9 @@ buildNumber.properties
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+### Storage / Data ###
+data/
+
 ### Initialized files ###
 *.exe
 *.ini
